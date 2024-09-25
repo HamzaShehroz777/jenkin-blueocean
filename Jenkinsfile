@@ -29,6 +29,7 @@ date'''
       steps {
         echo 'deploy'
         sh 'sleep 5'
+        sh 'ls'
       }
     }
 
